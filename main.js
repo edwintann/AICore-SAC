@@ -1,3 +1,5 @@
+import axios from 'axios';
+
 var ajaxCall = (key, url, prompt) => {
   return new Promise((resolve, reject) => {
     $.ajax({
